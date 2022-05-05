@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*шрифты*/
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('fonts/Georgia/Georgia-Bold.eot');
+    src: local('Georgia Bold'), local('Georgia-Bold'), url('fonts/Georgia/Georgia-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Georgia/Georgia-Bold.woff2') format('woff2'), url('fonts/Georgia/Georgia-Bold.woff') format('woff'), url('../../assets/fonts/Georgia/Georgia-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('fonts/Georgia/Georgia.eot');
+    src: local('Georgia'), url('fonts/Georgia/Georgia.eot?#iefix') format('embedded-opentype'), url('fonts/Georgia/Georgia.woff2') format('woff2'), url('fonts/Georgia/Georgia.woff') format('woff'), url('fonts/Georgia/Georgia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-size: 62.5%;
+    /*1rem = 10px*/
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 120rem;
+    flex-direction: column-reverse;
+    padding-top: 3rem;
+    background: #f5f5f5;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.me {
+display: flex;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33rem;
+    padding-left: 3rem;
+}
+
+h1 {
+    margin: 0;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 2.9rem;
+    line-height: 110%;
+    letter-spacing: .06em;
+}
+
+.info h2 {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 1.9rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.name span {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 110%;
+    letter-spacing: .1em;
+}
+
+header a {
+    display: flex;
+    color: #000;
+    margin: 1rem;
+}
+
+.info span {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: .06em;
+    margin-left: 0.6em;
+    margin-top: 0.3em;
+}
+
+.contactLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    font-family: Georgia;
+    height: 5.2rem;
+    width: 18rem;
+    border: 2px solid #F1CDB3;
+    border-radius: 10rem;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 130%;
+    letter-spacing: .06em;
+    color: #292929;
+    background: #FAFAFA;
+}
